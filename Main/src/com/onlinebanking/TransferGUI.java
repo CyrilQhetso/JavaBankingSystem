@@ -10,6 +10,7 @@ public class TransferGUI extends JFrame {
         setSize(350, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
+        setLocationRelativeTo(null);
 
         JLabel lblTargetAccount = new JLabel("Target Account No:");
         lblTargetAccount.setBounds(20, 30, 150, 25);
